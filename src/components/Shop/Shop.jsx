@@ -20,8 +20,8 @@ const Shop = () => {
                 const addededProduct = products.find(product => product.id === id)
                 // step-3 get quantaty of the product
                 if(addededProduct){
-                    const quantaty =storedCart[id]
-                addededProduct.quantaty = quantaty;
+                    const quantity =storedCart[id]
+                addededProduct.quantity = quantity;
                 // step-4 add the addeded product to the saveCart
                 savedCart.push(addededProduct);
                 }
